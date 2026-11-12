@@ -1,0 +1,123 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}{\f2\fnil\fcharset0 Cambria Math;}{\f3\fnil\fcharset1 Cambria Math;}{\f4\fnil Cambria Math;}{\f5\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont2\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\ul\b\f0\fs44\lang9 AIR POLLUTION MONITORING SYSTEM\ulnone\par
+
+\pard\sa200\sl276\slmult1\par
+Introduction\par
+\b0\fs32 Air pollution is one of the major environmental and public health problems caused by the presence of harmful gases, particulate matter, smoke, and other pollutants in the atmosphere. Rapid industrialization, increasing numbers of vehicles, construction activities, burning of fossil fuels, and improper waste disposal are major contributors to air pollution.\par
+The proposed Air Pollution Monitoring System is designed to monitor air-quality parameters using suitable gas and particulate-matter sensors. The collected sensor data can be processed using a microcontroller and displayed locally or transmitted to an online platform for remote monitoring. The system can also generate alerts when pollution levels exceed predefined limits.\par
+\b\fs40 Problem Statement\par
+\b0\fs32 Air pollution is increasing because of vehicles, industries, construction work, and burning of waste. Polluted air can cause health problems and harm the environment. Many existing air pollution monitoring systems are expensive and are available only in limited places.\par
+\b\fs40 Aim\par
+\b0\fs32 To design and develop a real-time air pollution monitoring system capable of measuring important air-quality parameters and providing pollution-level information to users.\par
+\b\fs40 Objectives\b0\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\fs32 To measure the pollution level in the air.\par
+{\pntext\f5\'B7\tab}To detect harmful gases and dust particles.\par
+{\pntext\f5\'B7\tab}To monitor air quality continuously.\par
+{\pntext\f5\'B7\tab}To display the pollution level clearly.\par
+{\pntext\f5\'B7\tab}To give an alert when pollution is too high.\par
+{\pntext\f5\'B7\tab}To help people know about the quality of the air around them.\par
+{\pntext\f5\'B7\tab}To develop a simple and low-cost air pollution monitoring system.\par
+{\pntext\f5\'B7\tab}Depending on the availability of sensors, the proposed system can monitor:\par
+
+\pard\sa200\sl276\slmult1\b\fs40  Parameters to be Monitored\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0\fs32 Particulate Matter (PM2.5 and PM10)\par
+{\pntext\f5\'B7\tab}Carbon Monoxide (CO)\par
+{\pntext\f5\'B7\tab}Carbon Dioxide (CO\f1\u8322?)\par
+{\pntext\f5\'B7\tab}Nitrogen Oxides (NO\u8339?)\par
+{\pntext\f5\'B7\tab}Smoke and combustible gases\par
+{\pntext\f5\'B7\tab}Temperature\par
+{\pntext\f5\'B7\tab}Relative humidity\f0\par
+
+\pard\sa200\sl276\slmult1\b\f1\fs40 Proposed Methodology\b0\f0\fs32\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\f1 The proposed system will use sensors to detect air pollution in the surrounding area. The sensors will collect information about harmful gases and dust particles in the air.\par
+{\pntext\f5\'B7\tab}The collected data will be sent to a microcontroller, which processes the information and calculates the pollution level. The pollution level will then be shown on a display.\par
+{\pntext\f5\'B7\tab}If the pollution level becomes too high, the system will give an alert using a buzzer or LED. The system can also store or send the data to a mobile phone or computer for monitori\f0\lang1033 ng \par
+
+\pard\sa200\sl276\slmult1\b\fs40 Block\f2  \f0 Diagram\par
+\i\fs32 Air\f2  \f3\u8594? Sensors \u8594? Signal Processing \u8594? Microcontroller \u8594? Data Display/Cloud \u8594? User\i0\par
+The major functional blocks are\b0 :\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b Air-quality sensors \b0\endash  Detect pollutants and environmental parameters.\par
+{\pntext\f5\'B7\tab}\b Microcontroller\b0  \endash  Reads, processes, and controls the sensor data.\par
+{\pntext\f5\'B7\tab}\b Display unit \b0\endash  Shows the measured values.\par
+{\pntext\f5\'B7\tab}\b Communication module \b0\endash  Transfers data to a computer, mobile application, or cloud platform.\par
+{\pntext\f5\'B7\tab}\b Alert unit \b0\endash  Provides an indication when pollution exceeds the selected threshold.\par
+{\pntext\f5\'B7\tab}\b Power supply \b0\endash  Provides power to the complete system.\b\f0\fs40\par
+
+\pard\sa200\sl276\slmult1\f4 Hardware Requirements\f0\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\fs32 Arduino\f2 /\f0 ESP32\f2  \f4\endash  \b0 Controls the whole system\b .\par
+{\pntext\f5\'B7\tab}Gas Sensor \b0\endash  Detects harmful gases in the air.\par
+{\pntext\f5\'B7\tab}\b Temperature and Humidity Sensor \b0\endash  Measures temperature and humidity.\par
+{\pntext\f5\'B7\tab}\b Buzzer\b0  \endash  Gives an alarm when pollution is high.\par
+{\pntext\f5\'B7\tab}\b\f2\lang1033 O\f4 LED \b0\endash  Shows the pollution status.\par
+{\pntext\f5\'B7\tab}\b Jumper Wires \b0\endash  Used to connect the components.\par
+{\pntext\f5\'B7\tab}\b Breadboard \endash  \b0 Used to build the circuit.\par
+{\pntext\f5\'B7\tab}\b Power Supply/Battery \b0\endash  Provides power to the syste\par
+
+\pard\sa200\sl276\slmult1\b\fs40 Software Requirements\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0\fs32 Arduino IDE \par
+{\pntext\f5\'B7\tab}Embedded C/C++ programming\par
+{\pntext\f5\'B7\tab}Sensor libraries and communication protocols\par
+{\pntext\f5\'B7\tab}Optional IoT/cloud platform\par
+{\pntext\f5\'B7\tab}Data visualization software or mobile/web interface, if required\par
+
+\pard\sa200\sl276\slmult1\b\fs40 Working Principle\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0\fs32 The air-quality sensors continuously sense pollutants present in the surrounding atmosphere. The sensor signals are read by the microcontroller at regular intervals. The controller processes the readings and determines the corresponding pollution levels.\par
+{\pntext\f5\'B7\tab}The measured values are displayed to the user. In an IoT-based implementation, the readings are also uploaded to a cloud server through a wireless network. Users can therefore monitor air quality remotely.\par
+{\pntext\f5\'B7\tab}If any parameter crosses its predefined threshold, the system activates an alert. The recorded data can  be analyzed to understand pollution trends and identify periods of poor air quality\b\fs40\par
+
+\pard\sa200\sl276\slmult1 Expected Outcomes\b0\fs32\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 It will detect pollution in the air.\par
+{\pntext\f5\'B7\tab}It will measure harmful gases and dust particles.\par
+{\pntext\f5\'B7\tab}It will show the pollution level on the display.\par
+{\pntext\f5\'B7\tab}It will give an alert when pollution is too high.\par
+{\pntext\f5\'B7\tab}It will help people know the air quality around them.\par
+{\pntext\f5\'B7\tab}It will provide real-time pollution information.\par
+
+\pard\sa200\sl276\slmult1\b\fs40 Applications\b0\fs32\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\f0\lang9 Schools and colleges\par
+{\pntext\f5\'B7\tab}Hospitals\par
+{\pntext\f5\'B7\tab}Industrial areas\par
+{\pntext\f5\'B7\tab}Offices and laboratories\par
+{\pntext\f5\'B7\tab}Environmental monitoring \par
+
+\pard\sa200\sl276\slmult1\b\fs40 Advantages\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0\fs32 Low-cost implementation\par
+{\pntext\f5\'B7\tab}Real-time monitoring\par
+{\pntext\f5\'B7\tab}Compact and portable design\par
+{\pntext\f5\'B7\tab}Easy installation and operation\par
+{\pntext\f5\'B7\tab}IoT-based remote monitoring\par
+{\pntext\f5\'B7\tab}Instant pollution alerts\par
+
+\pard\sa200\sl276\slmult1\b\fs40 Future Scope\b0\fs32\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b More sensors\b0 : Detect more harmful gases.\par
+{\pntext\f5\'B7\tab}\b Mobile app: \b0 Check air quality on phone.\par
+{\pntext\f5\'B7\tab}\b Alerts: \b0 Get a message when pollution is high.\par
+{\pntext\f5\'B7\tab}\b GPS\b0 : Find the place with high pollution.\par
+{\pntext\f5\'B7\tab}\b Cloud: \b0 Save data online.\par
+{\pntext\f5\'B7\tab}\b AI: \b0 Predict future pollution.\par
+{\pntext\f5\'B7\tab}\b Smart city\b0 : Use the system in many places.\par
+
+\pard\sa200\sl276\slmult1\b\fs40 Conclusion\b0\fs32\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 The Air Pollution Monitoring System is a simple, low-cost, and effective system for checking air quality in real time. It detects harmful gases and monitors pollution levels continuously. When the pollution level becomes high, the system can give an alert to the user.\par
+{\pntext\f5\'B7\tab}This system helps people understand the quality of air around them and take necessary safety steps. It can be used in homes, schools, hospitals, industries, and public places. Overall, the system helps in creating a cleaner, safer, and healthier environment.\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+
+\pard\sa200\sl276\slmult1\qc\b\par
+\par
+}
+ 
